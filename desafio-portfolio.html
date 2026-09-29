@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="author" content="Desenvolvedor Web">
+    <meta name="keywords" content="HTML5, semântica, desenvolvimento">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Rafaela F. F. Braga - Desenvolvedora Web</h1>
+        <ul style="list-style-type: disc;">
+<li><p><a href="#sobre">Sobre</a></p></li>
+<li><p><a href="#projetos">Projetos</a></p></li>
+<li><p><a href="#contato">Contato</a></p></li>
+<hr>
+
+      <h2 id="sobre">Sobre Mim</h2>
+          <img src="assets/Design sem nome.jpg" alt="Clique aqui" width="150" height="150">
+<p>Sou estudante de <strong>Desenvolvimento de Sistemas.</strong></p>
+<p>Tenho bastante conhecimento na área de <em>HTML</em> e pretendo me aperfeicoar na área de <em>Java Script</em>.</p>
+<h3>Minhas Habilidades</h3>
+            <li>HTML5 e Semântico</li>
+            <li>CSS3 e Responsividade</li>
+            <li>Formulários e Validação</li>
+            <li>Estruturação de Dados</li>
+<hr>
+
+        <h2 id="projetos">Meus Projetos</h2>
+<table border="1" cellpadding="10" cellspacing="0" width="50%">
+        <!-- Cabeçalho da tabela -->
+         <thead>
+            <tr>
+                <th>Projetos</th>
+                <th>Tecnologias</th>
+                <th>Status</th>
+                <th>Links</th>
+            </tr>
+         </thead>
+         <!-- Corpo da tabela -->
+        <tbody>
+            <tr>
+                <td>Desafio games retro</td>
+                <td>HTML</td>
+                <td>Finalizado</td>
+                <td><a href="https://github.com/bragarafaela/desafio-html-jogos-retro">Ver Projeto</a></td>
+            </tr>
+            <tr>
+                <td>Projeto Filmes</td>
+                <td>HTML</td>
+                <td>Finalizado</td>
+                <td><a href="https://github.com/bragarafaela/Projeto-Filmes">Ver Projeto</a></td>
+            </tr>
+            <tr>
+                <td>Php-exemplos-basicos</td>
+                <td>PHP</td>
+                <td>Em andamento</td>
+                <td><a href="https://github.com/bragarafaela/php-exemplos-basicos">Ver Projeto</a></td>
+            </tr>
+        </tbody>
+    </table><br>
+    <hr>
+          <h2 id="contato">Entre em Contato</h2>
+<form action="processar.php" method="post">
+        <!-- Campo de texto simples -->
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <!-- Campo de email com validação -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="assunto">Assunto:</label><br>
+        <select id="assunto" name="assunto">
+            <option value="">Selecione uma opção</option>
+            <option value="estagio">Proposta de Estágio</option>
+            <option value="duvida">Dúvida sobre projeto</option>
+            <option value="">Parceria</option>
+        </select><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+         <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+         <button type="submit">Enviar Mensagem</button>
+    <hr>
+        <p>© 2026 Meta. Desenvolvido durante o curso do SENAI.</p>
+    <hr>
+        <a href="r.braga@edu.senai.br">r.braga@edu.senai.br</a> | <a href="tel:11913759433">(11)91375-9433</a>
+</body>
+</html>
